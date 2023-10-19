@@ -1,6 +1,10 @@
-@import "./colors";
-@import "./mixins";
-@import "./components";
+// @import "./colors";
+// @import "./mixins";
+// @import "./components";
+
+@use './colors';
+@use './components';
+@use './mixins';
 
 *,
 *::after,
