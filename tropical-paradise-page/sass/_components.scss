@@ -1,3 +1,5 @@
+@use "./colors" as c;
+
 .wrapper {
   margin: 0 auto;
   width: 100%;
@@ -7,7 +9,7 @@
   position: absolute;
   height: 40px;
   width: 60%;
-  background-color: $pure-white;
+  background-color: c.$pure-white;
 
   &-left {
     bottom: 0;
@@ -22,14 +24,14 @@
   }
   .btn-special-animation {
     position: relative;
-    transition: background-color.3s;
+    transition: background-color 0.3s;
     overflow: hidden;
     z-index: 0;
 
     &::before {
       display: block;
       content: "";
-      position: relative;
+      position: absolute;
       top: 0;
       left: 0;
       width: 100%;
