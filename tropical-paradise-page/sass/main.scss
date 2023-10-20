@@ -2,7 +2,7 @@
 @import "./mixins";
 @import "./components";
 
-// @use "./colors" as *;
+// @use "./colors" as color
 // @use "./components" as *;
 // @use "./mixins" as *;
 
@@ -41,7 +41,8 @@ body {
   }
 
   &:hover {
-    .burger-btn__bars::after, .burger-btn__bars::before{
+    .burger-btn__bars::after,
+    .burger-btn__bars::before {
       width: 100%;
     }
   }
@@ -66,8 +67,20 @@ body {
     &::before {
       top: 27px;
       width: 30%;
-      transition-delay: .1s;
+      transition-delay: 0.1s;
     }
   }
 }
-//header
+//HEADER
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  height: 75vh;
+  text-align: center;
+  color: $pure-white;
+  @include heroImages("../img/mini.jpg");
+}
