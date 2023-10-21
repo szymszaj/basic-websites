@@ -1,10 +1,10 @@
-// @import "./colors";
-// @import "./mixins";
-// @import "./components";
+@import "./colors";
+@import "./mixins";
+@import "./components";
 
-@use "./colors" as c;
-@use "./components" as com;
-@use "./mixins" as m;
+// @use "./colors" as c;
+// @use "./components" as com;
+// @use "./mixins" as m;
 
 *,
 *::after,
@@ -54,7 +54,7 @@ body {
   &__bars,
   &__bars::after,
   &__bars::before {
-    @include m.burgerBtn;
+    @include burgerBtn;
   }
   &__bars {
     width: 100%;
@@ -81,9 +81,8 @@ body {
   padding: 2em;
   height: 75vh;
   text-align: center;
-  color: c.$pure-white;
-  @include m.heroImages("/tropical-paradise-page/img/mini.jpg");
-
+  color: $pure-white;
+  @include heroImages("/tropical-paradise-page/img/mini.jpg");
   background-attachment: scroll;
 
   &__heading {
@@ -93,22 +92,20 @@ body {
   }
 
   &__text {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
-  &__btn {
+  &__btn{
     margin-top: 2em;
     padding: 0.8em 1.6em;
     font-size: 1.4rem;
-    background: c.$pure-white;
+    background: $pure-white;
     border: none;
     border-radius: 15px;
-    color: c.$dark;
+    color: $dark;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
-
-    &::before {
-      background-color: c.$light-white;
-    }
-  }
+  } 
 }
+
+
