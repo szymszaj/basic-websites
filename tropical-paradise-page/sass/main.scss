@@ -82,7 +82,8 @@ body {
   height: 75vh;
   text-align: center;
   color: c.$pure-white;
-  @include m.heroImages("../img/mini.jpg");
+  @include m.heroImages("/tropical-paradise-page/img/mini.jpg");
+
   background-attachment: scroll;
 
   &__heading {
@@ -100,7 +101,7 @@ body {
     font-size: 1.4rem;
     background: c.$pure-white;
     border: none;
-    border-radius: 8px;
+    border-radius: 15px;
     color: c.$dark;
     text-decoration: none;
     text-transform: uppercase;
