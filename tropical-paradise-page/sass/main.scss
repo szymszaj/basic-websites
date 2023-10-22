@@ -240,7 +240,7 @@ body {
   &__card {
     position: relative;
     margin: 1em 0;
-    height: 400px;
+    height: 450px;
     color: $pure-white;
     text-align: center;
     perspective: 1000px;
@@ -388,6 +388,18 @@ body {
       font-size: 2.2rem;
     }
   }
+
+  .islands{
+    &__cards{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__card{
+      margin: 1em;
+      width: 45%;
+    }
+  }
 }
 
 @media (min-width: 992px) {
@@ -441,6 +453,13 @@ body {
     hr {
       width: 60%;
       max-width: 900px;
+    }
+  }
+}
+@media (min-width: 1100px) {
+  .islands{
+    &__card{
+      width: 30%;
     }
   }
 }
