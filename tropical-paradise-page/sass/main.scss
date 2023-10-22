@@ -219,7 +219,7 @@ body {
 .hero-img {
   position: relative;
   padding: 10em 2em;
-  @include heroImages("/tropical-paradise-page/img/hero-big.jpg");
+  @include heroImages("/tropical-paradise-page/img/hero-mini.jpg");
   text-align: center;
   color: $pure-white;
   overflow: hidden;
@@ -258,6 +258,19 @@ body {
     &__text {
       font-size: 1.8rem;
     }
+  }
+
+  .hero-img{
+    padding: 30rem 2em;
+
+    hr{
+      margin: 0 auto;
+      width: 70%;
+    }
+    &__text{
+      font-size: 2.2rem;
+    }
+
   }
 }
 
@@ -298,6 +311,19 @@ body {
 
     &__text {
       font-size: 1.6rem;
+    }
+  }
+
+  .hero-img{
+    padding: 40rem 2em;
+    background-image: $blue-gradient, url('/tropical-paradise-page/img/hero-big.jpg');
+
+    &__title{
+      font-size: 6.2rem;
+    }
+    hr{
+      width: 60%;
+      max-width: 900px;
     }
   }
 }
