@@ -94,7 +94,7 @@ body {
   height: 75vh;
   text-align: center;
   color: $pure-white;
-  @include heroImages("/tropical-paradise-page/img/mini.jpg");
+  @include heroImages("/Flexbox website-paradise/img/mini.jpg");
   background-attachment: scroll;
 
   &__heading {
@@ -219,7 +219,7 @@ body {
 .hero-img {
   position: relative;
   padding: 10em 2em;
-  @include heroImages("/tropical-paradise-page/img/hero-mini.jpg");
+  @include heroImages("/Flexbox website-paradise/img/hero-mini.jpg");
   text-align: center;
   color: $pure-white;
   overflow: hidden;
@@ -265,15 +265,15 @@ body {
 
       &--first {
         background-image: $light-blue-gradient,
-          url("../tropical-paradise-page/img/card/boat.jpg");
+          url("../Flexbox website-paradise/img/card/boat.jpg");
       }
       &--second {
         background-image: $blue-gradient,
-          url("../tropical-paradise-page/img/card/hawaii.jpg");
+          url("../Flexbox website-paradise/img/card/hawaii.jpg");
       }
       &--third {
         background-image: $purple-gradient,
-          url("../tropical-paradise-page/img/card/water.jpg");
+          url("../Flexbox website-paradise/img/card/water.jpg");
       }
 
       &-title {
@@ -408,7 +408,7 @@ body {
     right: 50px;
   }
   .header {
-    background-image: $blue-gradient, url("/tropical-paradise-page/img/big.jpg");
+    background-image: $blue-gradient, url("/Flexbox website-paradise/img/big.jpg");
 
     &__heading {
       font-size: 10rem;
@@ -445,7 +445,7 @@ body {
   .hero-img {
     padding: 40rem 2em;
     background-image: $blue-gradient,
-      url("/tropical-paradise-page/img/hero-big.jpg");
+      url("/Flexbox website-paradise/img/hero-big.jpg");
 
     &__title {
       font-size: 6.2rem;
