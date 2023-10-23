@@ -248,28 +248,6 @@ body {
   font-size: 1.4rem;
 }
 
-@media (min-width: 576px) {
-  .dreams__box {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .dreams__box-text {
-    width: 55%;
-  }
-  .dreams__box-text--right {
-    text-align: right;
-  }
-  .dreams__box-img {
-    width: 40%;
-  }
-  .dreams__box-img--right {
-    order: 1;
-  }
-  .dreams__img {
-    margin-bottom: 0;
-    min-height: 300px;
-  }
-}
 .hero-img {
   position: relative;
   padding: 10em 2em;
@@ -387,6 +365,106 @@ body {
   background-color: #0fe29c;
 }
 
+.offers {
+  position: relative;
+  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../Flexbox website-paradise/img/offer/maldives-s.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.offers .section-heading {
+  color: #fff;
+}
+.offers__option {
+  margin: 1em 0;
+  box-shadow: 5px 5px 10px rgba(46, 46, 46, 0.17);
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.offers__option-img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+.offers__option-img:hover {
+  transform: scale(1.1);
+}
+.offers__option-info {
+  padding: 2em;
+  background-color: #fff;
+  z-index: 10;
+}
+.offers__option-heading {
+  margin-bottom: 0.5em;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.offers__option-text {
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+  color: #2e2e2e;
+}
+.offers__option-btn {
+  margin-top: 1em;
+  width: 100%;
+  padding: 0.8em;
+  color: #fff;
+  background-color: #1755e7;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.offers__option-btn::before {
+  background-color: #0d47ce;
+}
+
+@media (min-width: 576px) {
+  .dreams__box {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .dreams__box-text {
+    width: 55%;
+  }
+  .dreams__box-text--right {
+    text-align: right;
+  }
+  .dreams__box-img {
+    width: 40%;
+  }
+  .dreams__box-img--right {
+    order: 1;
+  }
+  .dreams__img {
+    margin-bottom: 0;
+    min-height: 300px;
+  }
+  .offers__option {
+    display: flex;
+    margin: 2em 0;
+    width: 100%;
+  }
+  .offers__option-img {
+    width: 50%;
+    height: auto;
+  }
+  .offers__option-img--right {
+    order: 1;
+  }
+  .offers__option-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .offers__option-heading {
+    margin-bottom: 0.5em;
+    font-size: 3.6rem;
+  }
+  .offers__option-btn {
+    padding: 1em;
+  }
+}
 @media (min-width: 768px) {
   .white-block {
     height: 50px;
@@ -463,6 +541,17 @@ body {
   .hero-img hr {
     width: 60%;
     max-width: 900px;
+  }
+  .offers {
+    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../Flexbox website-paradise/img/offer/maldives-b.jpg");
+  }
+  .offers__option-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 300px;
+  }
+  .offers__option-text {
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 1100px) {
