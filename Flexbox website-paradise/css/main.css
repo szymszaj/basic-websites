@@ -167,7 +167,7 @@ body {
   height: 75vh;
   text-align: center;
   color: #fff;
-  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("/Flexbox website-paradise/img/mini.jpg");
+  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("/Flexbox website-paradise/img/head/mini.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -257,7 +257,7 @@ body {
 .hero-img {
   position: relative;
   padding: 10em 2em;
-  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("/Flexbox website-paradise/img/hero-mini.jpg");
+  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("/Flexbox website-paradise/img/head/hero-mini.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -670,7 +670,7 @@ body {
     right: 50px;
   }
   .header {
-    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("/Flexbox website-paradise/img/big.jpg");
+    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("/Flexbox website-paradise/img/head/big.jpg");
   }
   .header__heading {
     font-size: 10rem;
@@ -695,7 +695,7 @@ body {
   }
   .hero-img {
     padding: 40rem 2em;
-    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("/Flexbox website-paradise/img/hero-big.jpg");
+    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("/Flexbox website-paradise/img/head/hero-big.jpg");
   }
   .hero-img__title {
     font-size: 6.2rem;
