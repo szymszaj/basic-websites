@@ -31,7 +31,8 @@ h1.company-name {
   max-width: 1200px;
   width: 100%;
 }
-//header
+
+//HEADER
 .header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -99,7 +100,6 @@ h1.company-name {
   left: 1em;
   transform: translateY(-50%);
   z-index: 500;
-
 
   &-inner,
   &-inner::before,
